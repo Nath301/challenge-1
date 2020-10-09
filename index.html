@@ -8,49 +8,56 @@
     <link rel="stylesheet" href="challenge1.css"/>
   
     <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution { font-size: 11px; text-align: center; }
       .attribution a { color: hsl(228, 45%, 44%); }
     </style>
   </head>
   <body>
+
     <div class="cadre">
       <div class="left-photo">
         <img src="/images/drawers.jpg" alt="photo d'ambiance" height="300"/>
       </div>
-      <div class="text" id="paragraph">
-        <h3>
-        Shift the overall look and feel by adding these wonderful 
-        touches to furniture in your home
-        </h3>
-        <h4>
-        Ever been in a room and felt like something was missing? Perhaps 
-        it felt slightly bare and uninviting. I’ve got some simple tips 
-        to help you make any room feel complete.
-        </h4>
-      </div>
-      <div class"personnal-photo">
-        <img src="/images/avatar-michelle.jpg" alt="photo de michelle" width="30"/>
-      </div>
-      <div class="personnal-info" id="paragraph">
-        <div class="name">
-            Michelle Appleton
+      <div class="section-1">
+
+        <div class="text">
+          <h3>
+            Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home
+          </h3>
+          <h5>
+            Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.
+          </h5>
         </div>
-        <p>
-          28 Jun 2020
-        </p>
+      
       </div>
-      <div class="share-button">
-      <p>
-        Share
-      </p>
+      <div class="section-2">
+        <div class="personnal">
+          <div class="id-photo">
+            <img src="/images/avatar-michelle.jpg" alt="photo de michelle" width="45" style="border-radius:50px;"/>
+          </div>
+          <div class="info">
+            <div class="name">
+                Michelle Appleton
+            </div>
+            <p>
+              28 Jun 2020
+            </p>
+          </div>
+        </div>
+        <div class="share-button">
+            <img src="/images/icon-share.svg" class="icon" alt="icon share" width="20"/>
+        </div>
       </div>
     </div>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Glaive</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Glaive</a>.
+      </div>
     </div>
+
   </body>
 </html>
